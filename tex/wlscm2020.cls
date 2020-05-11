@@ -275,8 +275,7 @@ Critical edition of villancicos for WLSCM, volume 2]
 %****************************************
 % FOR CRITICAL NOTES
 
-% XXX redo without tabu
-\RequirePackage{longtable, tabularx, tabulary}
+\RequirePackage{tabularx}
 
 % Section listing sources at beginning of each critical note
 \NewDocumentEnvironment{notesources}{}
@@ -287,14 +286,10 @@ Critical edition of villancicos for WLSCM, volume 2]
 %*****
 % Table to list sources
 
-% \struts are added to tabu X columns because 
-% package gets vertical spacing wrong in wrapped cells
-\newcolumntype Z{>{\strut}X[l]<{\strut}}
-
 % A single source entry in the notesources table
 \NewDocumentEnvironment{source}{}
-  {\item \begin{tabu} to \linewidth [t]{l Z}}
-  {\end{tabu}}
+  {\item \begin{tabularx}{\linewidth}[t]{l X}}
+  {\end{tabularx}}
 
 % Each source has a description, annotation, and parts list
 \NewDocumentCommand{\sourcedescription}{ o m }{%
@@ -315,12 +310,13 @@ Critical edition of villancicos for WLSCM, volume 2]
 
 % Table of bar-by-bar critical notes
 \NewDocumentEnvironment{criticalnotes}{}
-  {\begin{longtabu} to \linewidth {X[-1r] X[-1l] X[-1.5l] >{\strut}X[3l]<{\strut}}
-      \textsc{Measure} & \textsc{Voice} & \textsc{Edition} & \textsc{Sources,
-      Rationale}\\
-      \endhead % repeat this header at top of new page
-  }
-  {\end{longtabu}}
+{\begin{tabularx}{\linewidth}{r l l X}
+    \textsc{Measure} 
+    & \textsc{Voice} 
+    & \textsc{Edition} 
+    & \textsc{Sources, Rationale}\\
+}
+{\end{tabularx}}
 
 
 %*****************************
@@ -370,7 +366,7 @@ Critical edition of villancicos for WLSCM, volume 2]
 % Avoid problems by keeping certain LaTeX commands out of 
 % automatically generated bookmark commands
 \pdfstringdefDisableCommands{%
-  \def\worktitle#1{“#1”}
+  \def\quoted#1{"#1"}
   \def\circa#1{ca. #1}
 }
 \endinput
