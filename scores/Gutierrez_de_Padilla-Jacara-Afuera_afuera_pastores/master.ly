@@ -8,6 +8,7 @@
 %% EDITED BY ANDREW A. CASHNER
 
 %% 2017-05-16   Begun
+\version "2.19"
 
 \include "villancico.ly"
 \include "include/music.ly"
@@ -17,7 +18,7 @@
   title     = "Afuera, afuera, pastores"
   subtitle  = "Jácara a 6"
   composer  = "JUAN GUTIÉRREZ DE PADILLA (ca. 1590–1664)"
-  poet      = "Anonymous"
+  poet      = "Feliz Persio Bertiso (Seville, 1634)"
   source    = \markup {
     "Puebla, Cathedral Archive (MEX-Pc: Leg. 1/3), " 
     \italic "Navidad de el año de 1652"

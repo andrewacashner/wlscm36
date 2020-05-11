@@ -10,7 +10,7 @@ Critical edition of villancicos for WLSCM, volume 2]
 
 \RequirePackage[T1]{fontenc}
 \RequirePackage[libertine]{newtxmath}
-\RequirePakcage{ebgaramond}
+\RequirePackage{ebgaramond}
 \let\bfseries\mdseries
 \RequirePackage{microtype}
 \frenchspacing
@@ -324,7 +324,7 @@ Critical edition of villancicos for WLSCM, volume 2]
 %*****************************
 
 % My package for parallel texts and translations
-\RequirePackage[numberline]{poemtranslation}
+\RequirePackage[numbers]{poemtranslation}
 
 % My package for semantic TEI-style markup
 \RequirePackage{semantic-markup} 
@@ -367,6 +367,8 @@ Critical edition of villancicos for WLSCM, volume 2]
 % automatically generated bookmark commands
 \pdfstringdefDisableCommands{%
   \def\quoted#1{"#1"}
+  \let\wtitle\quoted
+  \let\worktitle\quoted
   \def\circa#1{ca. #1}
 }
 \endinput
