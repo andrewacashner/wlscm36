@@ -1,0 +1,69 @@
+\documentclass{tex/wlscm2020}
+
+\def\wlscmNum{TBD}
+
+\def\GdpMiraba{Gutierrez_de_Padilla-Miraba_el_sol}
+\def\GdpJacara{Gutierrez_de_Padilla-Jacara-Afuera_afuera_pastores}
+\def\Bruna{Bruna-Suban_las_voces}
+\def\Ambiela{Ambiela-Suban_las_voces}
+\def\Irizar{Irizar-Que_musica_divina}
+\def\Carrion{Carrion-Que_destemplada_armonia}
+
+\input{tex/config.tex}
+
+\begin{document}
+\frontmatter
+
+\mymaketitle
+\copyrightpage
+\mytableofcontents
+
+\includeintro{preface}
+
+\mainmatter
+\input{intro/intro}
+\input{intro/report}
+
+\input{notes/\GdpMiraba}
+\input{notes/\GdpJacara}
+\input{notes/\Bruna}
+\input{notes/\Ambiela}
+\input{notes/\Irizar}
+\input{notes/\Carrion}
+
+\input{sources/sources}
+
+\input{poems/\GdpMiraba}
+\input{poems/\GdpJacara}
+\input{poems/\Bruna}
+\input{poems/\Ambiela}
+\input{poems/\Irizar}
+\input{poems/\Carrion}
+
+\includescore{\GdpMiraba}
+[Gutiérrez de Padilla, \wtitle{Miraba el sol}]
+{Juan Gutiérrez de Padilla, \wtitle{Miraba el sol el águila bella}}
+
+\includescore{\GdpJacara}
+[Gutiérrez de Padilla, \wtitle[Afuera, afuera pastores]
+{Juan Gutiérrez de Padilla, \wtitle{Afuera, afuera pastores (Jácara)}}
+
+\includescore{\Bruna}
+[Bruna, \wtitle{Suban las voces}]
+{Pablo Bruna, \wtitle{Suban las voces al cielo}}
+
+\includescore{\Ambiela}
+[Ambiela, \wtitle{Suban las voces}]
+{Miguel Ambiela, \wtitle{Suban las voces al cielo}}
+
+\includescore{\Irizar}
+[Irízar, \wtitle{Qué música celestial}]
+{Miguel de Irízar, \wtitle{Qué música celestial}}
+
+\includescore{\Carrion}
+[Carrión, \wtitle{Qué destemplada armonía]
+{Jerónimo de Carrión, \wtitle{Qué destemplada armonía}}
+
+\end{document}
+
+

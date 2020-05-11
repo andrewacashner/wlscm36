@@ -1,0 +1,104 @@
+% vcscores-config.tex
+% Configuration and data for Cashner WLSCM villancico edition 2020
+
+%*****************************************
+% TITLE PAGE
+
+\maintitle{%
+    VILLANCICOS ABOUT MUSIC FROM\\
+    SEVENTEENTH-CENTURY SPAIN AND NEW SPAIN\\[1ex]
+    VOLUME II
+}
+\editor{Andrew A. Cashner}
+\publisher{\WLSCMimprint{\wlscmNum}}
+
+%*******************************************
+% COPYRIGHT AND LICENSE
+
+\renewcommand{\copyrightNotice}{%
+    Version 1.0 copyright © 2020 Andrew A. Cashner
+}
+
+\renewcommand{\licenseNotice}{%
+    Users may download editions, print them for personal use, and perform them
+    in non-profit settings, provided proper acknowledgement is given to both the
+    editor and to the Society for Seventeenth-Century Music. 
+    Permission for performance in professional (for profit) settings must be
+    negotiated directly between the performers or their agents and the editor.
+
+    The editor remains the owner of all rights to the edition.
+
+    \includegraphics[height=2\baselineskip]{img/CC-by-nc-nd}
+
+    This work is licensed under a Creative Commons 
+    Attribution-NonCommercial-NoDerivs 3.0 Unported License 
+    (\url{https://creativecommons.org/licenses/by-nc-nd/3.0/}).
+}
+
+%********************************************
+% PAGE HEADERS AND FOOTERS
+
+\renewcommand{\headvolumeinfo}{%
+    \worktitle{Villancicos about Music}, ed. Cashner, 2020
+} 
+\renewcommand{\WLSCMbyline}{%
+    WEB LIBRARY OF SEVENTEENTH-CENTURY MUSIC 
+    (\url{www.sscm-wlscm.org}), WLSCM no.\ \wlscmNum{}
+}
+\pagestyle{fancy}
+
+%**********************************************
+% PDF metadata
+\hypersetup{%
+    pdftitle={%
+        Villancicos about Music from Seventeenth-Century Spain and New Spain,
+        Volume II
+    }, 
+    pdfauthor={%
+        Edited by Andrew A. Cashner, 
+        Web Library of Seventeenth-Century Music no. \wlscmNum
+    }, 
+    pdfkeywords={%
+        villancico, jácara, 17th century, religious music, devotion, liturgy,
+        Spain, Mexico, Madrid, Daroca, Zaragoza, Segovia, Puebla, Christmas,
+        Marian devotion, Corpus Christi, Eucharist, Gutiérrez de Padilla,
+        Bruna, Ambiela, Irízar, Carrión
+    }, 
+    pdfsubject={%
+        Choruses, Sacred with instrumental ensemble, 17th century;
+        Villancicos (Music)--17th century;
+        Villancicos (Poetry)--17th century;
+        Music--Spain--17th century;
+        Music--Mexico--17th century
+    },
+    pdfcreator={%
+        LaTeX and Lilypond
+    }%
+}
+
+%*************************************
+% BIBLIOGRAPHY
+
+\addbibresource{tex/wlscm.bib} % my bibliography file
+
+% Filters for sections of the bibliography
+\defbibfilter{villancico-studies}
+    {keyword=villancico-studies}
+\defbibfilter{villancico-editions}
+    {keyword=villancico-editions}
+\defbibfilter{villancico-imprint-catalogs}
+    {keyword=villancico-imprint-catalogs}
+\defbibfilter{villancico-poetry-editions}
+    {keyword=villancico-poetry-editions}
+
+%*********************************
+\hyphenation{
+   Na-cio-nal
+   In-ves-ti-ga-ción
+   Do-cu-men-ta-ción
+   Chá-vez
+   Gu-ti-érr-ez
+   Pa-di-lla
+}
+
+
