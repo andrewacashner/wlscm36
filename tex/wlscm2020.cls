@@ -78,10 +78,10 @@ Critical edition of villancicos for WLSCM, volume 2]
 }
 
 % Include source image from 'source' directory
-\NewDocumentCommand{\includeSource}{ m }{%
+\NewDocumentCommand{\includeSource}{ O{3.5in} m }{%
     \includegraphics
-    [width=\linewidth,height=0.9\textheight,keepaspectratio]
-    {sources/#1}\centering
+    [width=\linewidth,height=#1,keepaspectratio]
+    {sources/#2}\centering
 }
 % Turn of pdfTeX warning about PDFs of same 'group' being included on a single
 % page (this results from a bug in how some PDFs are created)
