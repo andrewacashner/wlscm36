@@ -288,18 +288,18 @@ Critical edition of villancicos for WLSCM, volume 2]
 
 % A single source entry in the notesources table
 \NewDocumentEnvironment{source}{}
-  {\item \begin{tabularx}{\linewidth}[t]{l X}}
-  {\end{tabularx}}
+  {\item \tabularx{\linewidth}[t]{l X}}
+  {\endtabularx}
 
 % Each source has a description, annotation, and parts list
 \NewDocumentCommand{\sourcedescription}{ o m }{%
-  Description & \IfValueTF{#1}{(#1)\ }{}#2 \\
+  Description & \IfValueTF{#1}{(#1)\ }{}#2\tabularnewline
 }
 \NewDocumentCommand{\annotation}{ m }{%
-  Annotation & \quoted{#1}\\
+  Annotation & \quoted{#1}\tabularnewline
 }
 \NewDocumentCommand{\parts}{ m }{%
-  Parts & #1\\
+  Parts & #1\tabularnewline
 }
 
 %*****
