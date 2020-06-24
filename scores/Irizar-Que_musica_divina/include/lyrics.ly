@@ -47,7 +47,7 @@ LyricsEstribilloSIii = \lyricmode {
   es la que~el o -- í -- do~e -- le -- va?
   ¿Qué cla -- ro ful -- gor el __ cie -- lo 
   es -- ta no -- che da~a __ la tie -- rra?
-  ¿Qué cla -- ro ful -- gor el __ cie -- lo 
+  ¿Qué cla -- ro ful -- gor el cie -- lo 
   es -- ta no -- che da~a __ la tie -- rra?
   Lo~ad -- mi -- rab -- le 
   gran -- de no -- ve -- dad __ en -- cie -- rra,
