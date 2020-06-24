@@ -186,6 +186,7 @@ MusicCoplasBI = {
 
 %% AII & BII tacent for coplas
 RestsCoplas = {
+  \MeterTriple
   | R1.*45
   \RepeatBar
 }
