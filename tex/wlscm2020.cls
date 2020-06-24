@@ -348,7 +348,11 @@ Critical edition of villancicos for WLSCM, volume 2]
 \NewDocumentCommand{\siglum}    { m }   {\emph{#1}} % WLSCM style
 \NewDocumentCommand{\signature} { m m } {\siglum{#1}: #2}
 \NewDocumentCommand{\circa}     { m }   {ca.~#1}
+\NewDocumentCommand{\sv}        { m }   {s.~v.~#1}
 
+\RenewDocumentCommand{\XXX}{ o m }{%
+    \fbox{FIX\IfValueTF{#1}{: #1}{}}%
+}
 %
 %**********************************
 % HYPERLINKS AND PDF BOOKMARKS

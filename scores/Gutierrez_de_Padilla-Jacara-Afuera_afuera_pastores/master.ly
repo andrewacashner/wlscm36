@@ -19,10 +19,6 @@
   subtitle  = "Jácara a 6"
   composer  = "JUAN GUTIÉRREZ DE PADILLA (ca. 1590–1664)"
   poet      = "Feliz Persio Bertiso (Seville, 1634)"
-  source    = \markup {
-    "Puebla, Cathedral Archive (MEX-Pc: Leg. 1/3), " 
-    \italic "Navidad de el año de 1652"
-  }
 }
 
 \score {

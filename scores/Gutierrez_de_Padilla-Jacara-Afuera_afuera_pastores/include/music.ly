@@ -315,6 +315,7 @@ MusicEstribilloAI = {
 }
 
 MusicEstribilloAII = {
+  \MeterTriple
   % m. 46
   | R1.*4
 
@@ -491,6 +492,7 @@ MusicEstribilloBI = {
 }
 
 MusicEstribilloBII = {
+  \MeterTriple
   % m. 46
   | R1.*4
 

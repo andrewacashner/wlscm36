@@ -29,17 +29,17 @@
         \new Lyrics = "T-1" \lyricsto "T" { \LyricsT }
       >>
     >>
-    \new ChoirStaff = "Continuo"
-    <<
-      \ShowChoirStaffBracket
-      \new Staff = "s-Ac"
-      <<
-        \IncipitStaff 
-        \TwoLineName "ENTABLATURA" "(Girona MS only)"
-        "Ac." { \IncipitAc }
-        \new Voice = "Ac" { \MusicAc }
-      >>
-    >>
+%    \new ChoirStaff = "Continuo"
+%    <<
+%      \ShowChoirStaffBracket
+%      \new Staff = "s-Ac"
+%      <<
+%        \IncipitStaff 
+%        \TwoLineName "ENTABLATURA" "(Girona MS only)"
+%        "Ac." { \IncipitAc }
+%        \new Voice = "Ac" { \MusicAc }
+%      >>
+%    >>
   >>
 }
 

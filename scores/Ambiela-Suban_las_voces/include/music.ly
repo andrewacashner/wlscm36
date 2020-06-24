@@ -1,6 +1,9 @@
 % vim: set foldmethod=marker :
 % AMBIELA SUBAN LAS VOCES music
 
+EdSolo = \MarkThisUp \markup \italic "[solo]"
+Solo = \MarkThisUp \markup \italic "solo"
+
 % {{{1 incipit
 % {{{2 chI
 IncipitSIi = {
@@ -721,7 +724,7 @@ MusicEstribilloTII = {
   | d'2\color g1
   | a2 d'2 d'2~
   | d'2 c'2 c'2
-  | c'2 bes'1
+  | c'2 bes1
   | a2 d1\endcolor
   | g2 c'2 c'2
 
@@ -873,7 +876,7 @@ MusicCoplasSIi = {
   % m. 82
   \SectionBreak 
   \MeterTriple
-  | r2\MarkThisUp "[solo]" e''2\color e''2~
+  | r2\EdSolo e''2\color e''2~
   | e''2\endcolor c''2. d''4
   | e''2\color a'2 a'2~
   | a'2 gis'1\endcolor
@@ -1035,7 +1038,7 @@ MusicCoplasSIii = {
   | d''2 cis''1\endcolor\fermata
 
   % COPLA 2
-  | r2\MarkThisUp "solo" e''2 e''2
+  | r2\Solo e''2 e''2
   | e''2\color cis''1
   | e''2 a'2 a'2~
   | a'2 gis'1\endcolor
@@ -1175,7 +1178,7 @@ MusicCoplasTI = {
 
   % COPLA 3
   \MeterTriple
-  | r2\MarkThisUp "solo" e'2\color e'2~
+  | r2\Solo e'2\color e'2~
   | e'2\endcolor c'2. d'4
   | e'2\color a2 a2~
   | a2 gis1\endcolor
@@ -1514,7 +1517,7 @@ MusicCoplasTII = {
   | d'2\color g1
   | a2 d'2 d'2~
   | d'2 c'2 c'2
-  | c'2 bes'1
+  | c'2 bes1
   | a2 d1\endcolor
   | g2 c'2 c'2
   | d'2\color g1\endcolor
@@ -2016,8 +2019,12 @@ LyricsCoplasTI  = \lyricmode {
   fruc -- ti -- fi -- ca -- da 
   que __ _ da.
   Y~a -- sí con -- mi -- go a -- cor -- des 
-  di --gan vo -- ces ex -- cel -- sas
+  di -- gan vo -- ces ex -- cel -- sas:
 
+  tri -- na -- dos que sus -- pen -- dan,
+  que sus -- pen -- dan,
+  tri -- na -- dos que sus -- pen -- dan,
+  \EdLyrics { tri -- na -- dos que sus -- pen -- dan: }
   si -- gan sus pa -- sos to -- dos,
   \EdLyrics { si -- gan sus pa -- sos to -- dos, }
   has -- ta la~es -- fe -- ra, 

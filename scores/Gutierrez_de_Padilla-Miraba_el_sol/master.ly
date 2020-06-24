@@ -17,13 +17,6 @@
   composer	= "JUAN GUTIÉRREZ DE PADILLA"
   dates		= "(c. 1590–1664)"
   poet          = "Anonymous"
-  source	= \markup { 
-    \italic "MEX-Pc:" "Leg.  34," 
-    \italic "Villançicos dibinos, i umanos de diversos autores" 
-    "(Only Tenor part extant)"
-  }
-  %  editor 	= "Andrew A. Cashner"
-  %  copyright     = "Copyright © 2019 Andrew A. Cashner"
 }
 
 %****************************************

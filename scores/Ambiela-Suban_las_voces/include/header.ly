@@ -4,5 +4,4 @@
   composer = "MIGUEL AMBIELA"
   dates = "(1666–1733)"
   poet = "Anonymous"
-  source = "E-Bbc: M733/1 (dated 24 October 1689)"
 } 
