@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{wlscm2020}
+\ProvidesClass{tex/wlscm2020}
 [2020/05/11
 Critical edition of villancicos for WLSCM, volume 2]
 
@@ -8,9 +8,9 @@ Critical edition of villancicos for WLSCM, volume 2]
 
 \RequirePackage{xparse}
 
-\RequirePackage[T1]{fontenc}
 \RequirePackage[libertine]{newtxmath}
-\RequirePackage{ebgaramond}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{ebgaramond-maths}
 \let\bfseries\mdseries
 \RequirePackage{microtype}
 \frenchspacing
@@ -353,7 +353,8 @@ Critical edition of villancicos for WLSCM, volume 2]
 \RenewDocumentCommand{\XXX}{ o m }{%
     \fbox{FIX\IfValueTF{#1}{: #1}{}}%
 }
-%
+
+
 %**********************************
 % HYPERLINKS AND PDF BOOKMARKS
 
