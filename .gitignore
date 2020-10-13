@@ -2,3 +2,4 @@ aux/
 *.swp
 *.pdf
 sources/orig/
+!feedback/*.pdf
