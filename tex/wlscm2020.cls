@@ -40,6 +40,7 @@ Critical edition of villancicos for WLSCM, volume 2]
 
 \RequirePackage{graphicx}
 \RequirePackage{multicol}
+\RequirePackage{tabulary}
 
 \RequirePackage[shortlabels]{enumitem}
 \setlist{noitemsep}

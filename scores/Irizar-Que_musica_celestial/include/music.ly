@@ -441,6 +441,7 @@ MusicEstribilloSIii = {
 % {{{3 AI
 MusicEstribilloAI = {
   \clef "treble"
+  \MeterTriple
   | r2 d''2 d''2~\color
   | d''2\endcolor c''2 c''2
   | c''2 bes'2 bes'2~\color
