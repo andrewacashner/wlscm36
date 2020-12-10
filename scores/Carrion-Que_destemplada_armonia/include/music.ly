@@ -118,7 +118,7 @@ IncipitAcG = {
 % {{{1 MARKS
 Marks = {
   \MeterTriple
-  \Section "ESTRIBILLO a 11"
+  \SectionPadded "ESTRIBILLO a 11" #8
   \tempo "Despacio" 
   | s1.*34
   \MiddleBar
@@ -809,8 +809,8 @@ MusicEstribilloAI = {
   | r2 bes'2.\Solo c''4
 
   % m. 240
-  | bes'2 d'2 e'2
-  | f'4( e'4) f'4( g'4) a'2~\color
+  | bes'2 d'2 \ficta es'2 % XXX ficta?
+  | f'4( \ficta es'4) f'4( g'4) a'2~\color
   | a'2\endcolor g'2. f'4
   | f'2\color f'1\endcolor
   | r2 f'2 f'4 g'4

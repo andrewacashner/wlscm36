@@ -1,5 +1,5 @@
 % vim: set foldmethod=marker :
-\include "block-lyrics.ly"
+\include "include/block-lyrics.ly"
 
 
 % Bruna Suban music
@@ -89,10 +89,10 @@ Marks = {
   \break
   | s1 | s1 | s1 | s1 | s1
   | s1 | s1 | s1 
-  \break
   | s1 | s1
-  | s1 | s1 | s1 | s1 | s1
-  | s1
+  | s1 | s1 
+  \break
+  | s1 | s1 | s1 | s1
   \FinalBar
   \DCalFineAfterLastCopla
 }

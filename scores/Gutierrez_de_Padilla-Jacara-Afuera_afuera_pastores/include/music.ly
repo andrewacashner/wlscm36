@@ -5,7 +5,7 @@
 %% MEX-Pc: Leg. 1/3 (1652)
 %% EDITED BY ANDREW A. CASHNER
 
-\include "block-lyrics.ly"
+\include "include/block-lyrics.ly"
 
 IncipitSI = {
   \MSclefGii
@@ -219,7 +219,7 @@ RestsCoplas = {
 %% ESTRIBILLO a 6
 
 MusicEstribilloSI = {
-  \Section "ESTRIBILLO A 6"
+%  \Section "ESTRIBILLO A 6"
   % m. 46
   | R1.*4
 
@@ -391,6 +391,7 @@ MusicEstribilloAII = {
 
 MusicEstribilloTI = {
   % m. 46
+  \Section "ESTRIBILLO A 6"
   | r2 e'2 f'2
   | g'2 d'2 d'2
   | a'2. g'4 f'2~
