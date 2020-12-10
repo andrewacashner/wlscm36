@@ -1,6 +1,7 @@
 % vim: set foldmethod=marker :
 \include "block-lyrics.ly"
 
+
 % Bruna Suban music
 % {{{1 incipits
 IncipitSi = {
@@ -677,8 +678,10 @@ MusicCoplasT = {
   | d'2 g2
   | d'2. g'4
 
-  % m. 80
-  | fis'2. g'4\MarkThisDown\BlockLyrics
+  % m. 80  
+  | fis'2.
+    \MarkThisDown\BlockLyrics
+    g'4
   | d'2 g2
   | r4 c'2 g4
 
@@ -950,7 +953,9 @@ LyricsCoplasT = \lyricmode {
       que~en -- tre ce -- ni -- zas re -- na -- ces;
       si~en Dios ha -- llas nue -- va vi -- da, nue -- va vi -- da,
       ar -- de, \EdLyrics { ar -- de, ar -- de,
-      ar -- de, ar -- de, ar -- de,
+      ar -- de, }
+      \KeepLyricsAboveMarkup
+      \EdLyrics { ar -- de, ar -- de,
       ar -- de, ar -- de. }
 }
 % }}}3
