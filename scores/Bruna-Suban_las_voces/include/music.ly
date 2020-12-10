@@ -1,4 +1,5 @@
 % vim: set foldmethod=marker :
+\include "block-lyrics.ly"
 
 % Bruna Suban music
 % {{{1 incipits
@@ -677,7 +678,7 @@ MusicCoplasT = {
   | d'2. g'4
 
   % m. 80
-  | fis'2. g'4
+  | fis'2. g'4\MarkThisDown\BlockLyrics
   | d'2 g2
   | r4 c'2 g4
 
@@ -900,11 +901,8 @@ LyricsEstribilloT = \lyricmode {
 % }}}2 
 
 % {{{2 coplas
-% XXX add successive coplas inline or block?
 % {{{3 Si
 LyricsCoplasSi = \lyricmode {
-  << 
-    {
       \StanzaI
       Fé -- nix her -- mo -- so~e -- res, al -- ma,
       \EdLyrics { fé -- nix her -- mo -- so~e -- res, al -- ma,~e -- } 
@@ -914,55 +912,12 @@ LyricsCoplasSi = \lyricmode {
       ar -- de, \EdLyrics { ar -- de, ar -- de, 
       ar -- de, ar -- de, ar -- de, 
       ar -- de, ar -- de. }
-    }
-    \AddLyricsLine "Si" "2" \lyricmode {
-      \StanzaII
-      De __ _ tu mismo fin pro -- ce -- des,
-      \EdLyrics { de __ _ tu mismo fin pro -- ce -- des, pro -- ce -- des }
-      pa -- _ ra siempre~e -- ter -- ni -- zar -- te;
-      si es -- tá tu ser en no ser,
-      en __ _ no ser,
-    }
-    \AddLyricsLine "Si" "3" \lyricmode {
-      \StanzaIII
-      En el pe -- li -- gro más cier -- to,
-      \EdLyrics { en el pe -- li -- gro más cier -- to, más cier -- to }
-      ha -- llas li -- son -- jas los ma -- les;
-      si~en el fue -- go no pe -- li -- gras, 
-      no pe -- li -- gras,
-    }
-    \AddLyricsLine "Si" "4" \lyricmode {
-      \StanzaIV
-      A __ _ la vida li -- son -- je -- as,
-      \EdLyrics { a __ _ la vida li -- son -- je -- as, lison -- je -- as }
-      cuan -- do lle -- gas a~a -- bra -- sar -- te;
-      si con mo -- rir te~e -- ter -- ni -- zas,
-      te~e -- ter -- ni -- zas,
-    }
-    \AddLyricsLine "Si" "5" \lyricmode {
-      \StanzaV
-      Cuan -- do el fuego te con -- su -- me,
-      \EdLyrics { cuan -- do el fuego te con -- su -- me, con -- su -- me, }
-      la tum -- ba~es cu -- na~en que na -- ces;
-      si del pol -- vo re -- su -- ci -- tas,
-      re -- su -- ci -- tas,
-    }
-    \AddLyricsLine "Si" "6" \lyricmode {
-      \StanzaVI
-      A __ _ me -- jor_A -- ra -- bia fé -- nix,
-      \EdLyrics { a __ _ me -- jor_A -- ra -- bia fé -- nix, fé -- _ nix, }
-      hoy a -- rre -- pen -- ti -- da par -- tes;
-      si la vi -- da~es -- tá~en la muer -- te,
-      en la muer -- te,
-    }
-  >>
+   
 }
 % }}}3
 
 % {{{3 Sii
 LyricsCoplasSii = \lyricmode {
-  << 
-    {
       \StanzaI
       Fé -- nix her -- mo -- so~e -- res, 
       al -- ma,~e -- res, al -- ma,~e -- res, al -- ma,
@@ -970,56 +925,11 @@ LyricsCoplasSii = \lyricmode {
       si~en Dios ha -- llas nue -- va vi -- da, nue -- va vi -- da,
       ar -- de, \EdLyrics { ar -- de, ar -- de, ar -- de,
       ar -- de, ar -- de. }
-    }
-    \AddLyricsLine "Sii" "2" \lyricmode {
-      \StanzaII
-      De __ _ tu mismo fin pro -- ce -- des,
-      \EdLyrics { pro -- ce -- des, pro -- ce -- des }
-      pa -- _ ra siempre~e -- ter -- ni -- zar -- te;
-      si es -- tá tu ser en no ser,
-      en __ _ no ser,
-    }
-    \AddLyricsLine "Sii" "3" \lyricmode {
-      \StanzaIII
-      En el pe -- li -- gro más cier -- to,
-      \EdLyrics { más cier -- to, más cier -- to }
-      ha -- llas li -- son -- jas los ma -- les;
-      si~en el fue -- go no pe -- li -- gras, 
-      no pe -- li -- gras,
-    }
-    \AddLyricsLine "Sii" "4" \lyricmode {
-      \StanzaIV
-      A __ _ la vida li -- son -- je -- as,
-      \EdLyrics { lison -- je -- as, lison -- je -- as }
-      cuan -- do lle -- gas a~a -- bra -- sar -- te;
-      si con mo -- rir te~e -- ter -- ni -- zas,
-      te~e -- ter -- ni -- zas,
-    }
-    \AddLyricsLine "Sii" "5" \lyricmode {
-      \StanzaV
-      Cuan -- do el fuego te con -- su -- me,
-      \EdLyrics { con -- su -- me, con -- su -- me, }
-      la tum -- ba~es cu -- na~en que na -- ces;
-      si del pol -- vo re -- su -- ci -- tas,
-      re -- su -- ci -- tas,
-    }
-    \AddLyricsLine "Sii" "6" \lyricmode {
-      \StanzaVI
-      A __ _ me -- jor_A -- ra -- bia fé -- nix,
-      \EdLyrics { fé -- _ nix, fé -- _ nix }
-      hoy a -- rre -- pen -- ti -- da par -- tes;
-      si la vi -- da~es -- tá~en la muer -- te,
-      en la muer -- te,
-    }
-  >>
-
 }
 % }}}3
 
 % {{{3 A
 LyricsCoplasA = \lyricmode {
-  <<
-    {
       \StanzaI
       Fé -- nix her -- mo -- so~e -- res, al -- ma
       \EdLyrics { fé -- nix her -- mo -- so~e -- res, al -- ma, }
@@ -1028,56 +938,12 @@ LyricsCoplasA = \lyricmode {
       ar -- de, \EdLyrics { ar -- de, ar -- de,
       ar -- de, ar -- de, 
       ar -- de, ar -- de. }
-    }
-    \AddLyricsLine "A" "2" \lyricmode {
-      \StanzaII
-      De __ _ tu mismo fin pro -- ce -- des,
-      \EdLyrics { de __ _ tu mismo fin pro -- ce -- des }
-      pa -- _ ra siempre~e -- ter -- ni -- zar -- te;
-      si es -- tá tu ser en no ser,
-      en __ _ no ser,
-    }
-    \AddLyricsLine "A" "3" \lyricmode {
-      \StanzaIII
-      En el pe -- li -- gro más cier -- to,
-      \EdLyrics { en el pe -- li -- gro más cier -- to }
-      ha -- llas li -- son -- jas los ma -- les;
-      si~en el fue -- go no pe -- li -- gras, 
-      no pe -- li -- gras,
-    }
-    \AddLyricsLine "A" "4" \lyricmode {
-      \StanzaIV
-      A __ _ la vida li -- son -- je -- as,
-      \EdLyrics { a __ _ la vida li -- son -- je -- as }
-      cuan -- do lle -- gas a~a -- bra -- sar -- te;
-      si con mo -- rir te~e -- ter -- ni -- zas,
-      te~e -- ter -- ni -- zas,
-    }
-    \AddLyricsLine "A" "5" \lyricmode {
-      \StanzaV
-      Cuan -- do el fuego te con -- su -- me,
-      \EdLyrics { cuan -- do el fuego te con -- su -- me, }
-      la tum -- ba~es cu -- na~en que na -- ces;
-      si del pol -- vo re -- su -- ci -- tas,
-      re -- su -- ci -- tas,
-    }
-    \AddLyricsLine "A" "6" \lyricmode {
-      \StanzaVI
-      A __ _ me -- jor_A -- ra -- bia fé -- nix,
-      \EdLyrics { a __ _ me -- jor_A -- ra -- bia fé -- nix }
-      hoy a -- rre -- pen -- ti -- da par -- tes;
-      si la vi -- da~es -- tá~en la muer -- te,
-      en la muer -- te,
-    }
-  >>
 }
 
 % }}}3
 
 % {{{3 T
 LyricsCoplasT = \lyricmode {
-  <<
-    {
       \StanzaI
       Fé -- nix her -- mo -- so~e -- res, al -- ma,
       \EdLyrics { fé -- nix her -- mo -- so~e -- res, al -- ma, }
@@ -1086,48 +952,6 @@ LyricsCoplasT = \lyricmode {
       ar -- de, \EdLyrics { ar -- de, ar -- de,
       ar -- de, ar -- de, ar -- de,
       ar -- de, ar -- de. }
-    }
-    \AddLyricsLine "T" "2" \lyricmode {
-      \StanzaII
-      De __ _ tu mismo fin pro -- ce -- des,
-      \EdLyrics { de __ _ tu mismo fin pro -- ce -- des }
-      pa -- _ ra siempre~e -- ter -- ni -- zar -- te;
-      si es -- tá tu ser en no ser,
-      en __ _ no ser,
-    }
-    \AddLyricsLine "T" "3" \lyricmode {
-      \StanzaIII
-      En el pe -- li -- gro más cier -- to,
-      \EdLyrics { en el pe -- li -- gro más cier -- to }
-      ha -- llas li -- son -- jas los ma -- les;
-      si~en el fue -- go no pe -- li -- gras, 
-      no pe -- li -- gras,
-    }
-    \AddLyricsLine "T" "4" \lyricmode {
-      \StanzaIV
-      A __ _ la vida li -- son -- je -- as,
-      \EdLyrics { a __ _ la vida li -- son -- je -- as }
-      cuan -- do lle -- gas a~a -- bra -- sar -- te;
-      si con mo -- rir te~e -- ter -- ni -- zas,
-      te~e -- ter -- ni -- zas,
-    }
-    \AddLyricsLine "T" "5" \lyricmode {
-      \StanzaV
-      Cuan -- do el fuego te con -- su -- me,
-      \EdLyrics { cuan -- do el fuego te con -- su -- me, }
-      la tum -- ba~es cu -- na~en que na -- ces;
-      si del pol -- vo re -- su -- ci -- tas,
-      re -- su -- ci -- tas,
-    }
-    \AddLyricsLine "T" "6" \lyricmode {
-      \StanzaVI
-      A __ _ me -- jor_A -- ra -- bia fé -- nix,
-      \EdLyrics { a __ _ me -- jor_A -- ra -- bia fé -- nix }
-      hoy a -- rre -- pen -- ti -- da par -- tes;
-      si la vi -- da~es -- tá~en la muer -- te,
-      en la muer -- te,
-    }
-  >>
 }
 % }}}3
 % }}}2

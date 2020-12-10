@@ -5,6 +5,8 @@
 %% MEX-Pc: Leg. 1/3 (1652)
 %% EDITED BY ANDREW A. CASHNER
 
+\include "block-lyrics.ly"
+
 IncipitSI = {
   \MSclefGii
   \MeterCZ
@@ -150,7 +152,7 @@ MusicCoplasTI = {
 %% Bassus part repeated for each strophe
 MusicCoplasBIStrophe = {
   %% \MeterTriple
-  % m. 1, 16, 31
+  % m. 1, 16
   | r2 r2 a2
   | d'2 d'2 d'2
   | cis'2 d'2 a2~
@@ -161,7 +163,7 @@ MusicCoplasBIStrophe = {
   | a2 a1~
   | a2\endcolor f2 f2
 
-  % m. 10, 25, 40
+  % m. 10, 25
   | g2\color a2 a2~
   | a2 d2 a2~
   | a2 a1~
@@ -180,8 +182,30 @@ MusicCoplasBI = {
   \MusicCoplasBIStrophe
 
   % m. 31
-  \MusicCoplasBIStrophe
+  | r2 r2 a2
+  | d'2 d'2 d'2
+  | cis'2 d'2 a2~
+  | a2 d2 a2
+  | d'2 d'2 d'2
+  | cis'2 cis'2 d'2~
+  | d'2 a2 a2~\color
+  | a2 a1~
+  | a2\endcolor f2 f2
+
+  % m. 40
+  | g2\color 
+    \MarkThisDown\JacaraBlockLyrics
+    a2 a2~
+  | a2 d2 a2~
+  | a2 a1~
+  | a2\endcolor d2. e4
+  | fis2\color fis2 g2~
+
+  % m. 15, 30, 45
+  | g2 a1\endcolor
   \RepeatBar
+  \pageBreak
+
 }
 
 %% AII & BII tacent for coplas

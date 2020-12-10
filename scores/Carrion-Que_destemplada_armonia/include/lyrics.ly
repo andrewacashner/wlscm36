@@ -10,7 +10,7 @@
 % {{{3 ChI
 % {{{4 SIi
 LyricsEstribilloSIi = \lyricmode {
-  Qué des -- tem -- pla -- da~ar -- mo -- ní -- a
+  ¿Qué des -- tem -- pla -- da~ar -- mo -- ní -- a
   de con -- fu -- sas vo -- ces va -- rias
   de lo pro -- fun -- do del va -- lle
   la __ sa -- gra -- da~es -- fe -- ra es -- ca -- la?

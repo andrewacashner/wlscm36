@@ -117,7 +117,7 @@ LyricsEstribilloTI = \lyricmode {
   ¿Qué so -- be -- ra -- na~ar -- mo -- ní -- a
   es la que~el o -- í -- do e -- le -- va,
   es la que~el o -- í -- do~e -- le -- va?
-  ¿Qué luz es es -- ta que~en dí -- a 
+  ¿Qué luz es és -- ta que~en dí -- a 
   trans -- for -- ma la no -- che den -- sa?
   ¿Qué cla -- ro ful -- gor el __ cie -- lo
   es -- ta no -- che da~a __ la tie -- rra?
@@ -155,7 +155,7 @@ LyricsEstribilloSII = \lyricmode {
   es la que~el o -- í -- do~e -- le -- va?
   ¿Qué luz es es -- ta que~en dí -- a
   Lo~ad -- mi -- rab -- le 
-  de~es -- ta~e -- nig -- ma
+  de~es -- te~e -- nig -- ma
   gran -- de no -- ve -- dad __ en -- cie -- rra.
   Glo -- ria.
   sus lu -- ces ca -- den -- cias.
@@ -180,7 +180,7 @@ LyricsEstribilloAII = \lyricmode {
   es la que~el o -- í -- do~e -- le -- va?
   ¿Qué luz es es -- ta que~en dí -- a
   Lo~ad -- mi -- rab -- le 
-  de~es -- ta~e -- nig -- ma
+  de~es -- te~e -- nig -- ma
   gran -- de no -- ve -- dad __ en -- cie -- rra.
   Glo -- ria.
   sus lu -- ces ca -- den -- cias.
@@ -205,7 +205,7 @@ LyricsEstribilloTII = \lyricmode {
   es la que~el o -- í -- do~e -- le -- _ va?
   ¿Qué luz es es -- ta que~en dí -- a
   Lo~ad -- mi -- rab -- le 
-  de~es -- ta~e -- nig -- ma
+  de~es -- te~e -- nig -- ma
   gran -- de no -- ve -- dad __ en -- cie -- rra.
   Glo -- ria.
   sus lu -- ces ca -- den -- cias.
@@ -230,7 +230,7 @@ LyricsEstribilloBII = \lyricmode {
   es la que~el o -- í -- do~e -- le -- va?
   ¿Qué luz es __ es -- ta que~en dí -- a
   Lo~ad -- mi -- rab -- le 
-  de~es -- ta~e -- nig -- ma
+  de~es -- te~e -- nig -- ma
   gran -- de no -- ve -- dad __ en -- cie -- rra.
   Glo -- ria.
   sus lu -- ces ca -- den -- cias.
@@ -256,7 +256,7 @@ LyricsEstribilloSIII = \lyricmode {
   es la que~el o -- í -- do e -- le -- va,
   el o -- í -- do e -- le -- va?
   trans -- for -- ma la no -- che den -- sa?
-  Lo~ad -- mi -- rab -- le de~es -- ta~e -- nig -- ma
+  Lo~ad -- mi -- rab -- le de~es -- te~e -- nig -- ma
   gran -- de no -- ve -- dad __ en -- cie -- rra.
   Glo -- ria.
   sus lu -- ces ca -- den -- cias.
@@ -281,7 +281,7 @@ LyricsEstribilloAIII = \lyricmode {
   es la que~el o -- í -- do~e -- le -- va,
   el o -- í -- do e -- le -- va?
   trans -- for -- ma la no -- che den -- _ sa?
-  Lo~ad -- mi -- rab -- le de~es -- ta~e -- nig -- ma
+  Lo~ad -- mi -- rab -- le de~es -- te~e -- nig -- ma
   gran -- de no -- ve -- dad __ en -- cie -- rra.
   Glo -- ria.
   sus lu -- ces ca -- den -- cias.
@@ -307,7 +307,7 @@ LyricsEstribilloTIII = \lyricmode {
   es la que~el o -- í -- do~e -- le -- _ va,
   el o -- í -- do e -- le -- va?
   trans -- for -- ma la no -- che den -- sa?
-  Lo~ad -- mi -- rab -- le de~es -- ta~e -- nig -- ma
+  Lo~ad -- mi -- rab -- le de~es -- te~e -- nig -- ma
   gran -- de no -- ve -- dad __ en -- cie -- rra.
   Glo -- ria.
   sus lu -- ces ca -- den -- cias.
@@ -333,7 +333,7 @@ LyricsEstribilloBIII = \lyricmode {
   es la que~el o -- í -- do~e -- le -- va,
   el o -- í -- do~e -- le -- va?
   trans -- for -- ma la no -- che den -- sa?
-  Lo~ad -- mi -- rab -- le de~es -- ta~e -- nig -- ma
+  Lo~ad -- mi -- rab -- le de~es -- te~e -- nig -- ma
   gran -- de no -- ve -- dad __ en -- cie -- rra.
   Glo -- ria.
   sus lu -- ces ca -- den -- cias.
@@ -437,7 +437,7 @@ LyricsCoplasTI = \lyricmode {
       \Stanza "2a."
       ¿Qué se -- rá que~a me -- dia -- no -- che
       por las puer -- tas del __ o -- rien -- te
-      sin rom -- per el al -- ba \EdLyrics { vel -- ta[?]} % XXX check lyrics
+      sin rom -- per el al -- ba be -- lla
       el sol se nos ma -- ni -- fies -- _ te?
     }
     \NextLyricsLine "TI-two" "lyrics-TI" "TI"
@@ -467,7 +467,7 @@ LyricsCoplasSIii = \lyricmode {
       \Stanza "2b."
       Es que~el sol cuan -- do na -- ce de tal au -- ro -- ra
       do -- ra~el hie -- rro del hom -- bre 
-      que~a~e -- lla \EdLyrics{la~a -- } do -- _ ra. % XXX check lyrics
+      que~a~e -- lla la~a -- do -- _ ra. 
     }
     \NextLyricsLine "SIii-two" "lyrics-SIii" "SIii"
     {
@@ -475,7 +475,7 @@ LyricsCoplasSIii = \lyricmode {
       Es pas -- tor y~a -- sí~el ni -- ño
       quie -- re pre -- miar -- los
       por -- que cui -- den gus -- to -- sos 
-      de \EdLyrics{ sus } re -- ba -- _ ños. % XXX check lyrics
+      de sus re -- ba -- _ ños.
     }
     \NextLyricsLine "SIii-three" "SIii-two" "SIii"
     {

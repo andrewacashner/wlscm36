@@ -1733,8 +1733,8 @@ MusicAc = {
 % {{{4 SIi
 LyricsEstribilloSIi  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo
-  y di -- ga Ca -- pi -- lla __ _ Re -- gia,
-  Ca -- pi -- lla Re -- gia,
+  y di -- ga ca -- pi -- lla __ _ re -- gia,
+  ca -- pi -- lla re -- gia,
   pe -- ro nun -- ca más __ en -- te -- ra.
 
   Y di -- gan mu -- dan -- do~el ai -- re
@@ -1766,8 +1766,8 @@ LyricsEstribilloSIi  = \lyricmode {
 % {{{4 SIii
 LyricsEstribilloSIii  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo
-  Ca -- pi -- lla __ Re -- gia, y di -- ga
-  Ca -- pi -- lla, Ca -- pi -- lla Re -- gia,
+  ca -- pi -- lla __ re -- gia, y di -- ga
+  ca -- pi -- lla, ca -- pi -- lla re -- gia,
   pe -- ro nun -- ca más __ en -- te -- ra.
 
   vue -- len, \EdLyrics { vue -- len } jun -- tos,
@@ -1795,8 +1795,8 @@ LyricsEstribilloSIii  = \lyricmode {
 % {{{4 TI
 LyricsEstribilloTI  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo
-  y di -- ga Ca -- pi -- lla Re -- gia, Re -- gia, 
-  Ca -- pi -- lla, \EdLyrics { Ca -- pi -- lla }  Re -- gia,
+  y di -- ga ca -- pi -- lla re -- gia, re -- gia, 
+  ca -- pi -- lla, \EdLyrics { ca -- pi -- lla }  re -- gia,
   pe -- ro nun -- ca más __ en -- te -- ra.
 
   vue -- len, \EdLyrics { vue -- len } jun -- tos,
@@ -1828,7 +1828,7 @@ LyricsEstribilloTI  = \lyricmode {
 % {{{4 SII
 LyricsEstribilloSII  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo,
-  Ca -- pi -- lla Re -- gia, 
+  ca -- pi -- lla re -- gia, 
   que Ma -- rí -- a, Ma -- rí -- a al cie -- lo par -- te,
   pe -- ro nun -- ca más en -- te -- ra.
 
@@ -1862,7 +1862,7 @@ LyricsEstribilloSII  = \lyricmode {
 % {{{4 AII
 LyricsEstribilloAII  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo,
-  Ca -- pi -- lla Re -- gia, Re -- gia,
+  ca -- pi -- lla re -- gia, re -- gia,
   que Ma -- rí -- a al cie -- lo par -- te, 
   pe -- ro nun -- ca más en -- te -- ra.
   
@@ -1891,8 +1891,8 @@ LyricsEstribilloAII  = \lyricmode {
 % {{{4 TII
 LyricsEstribilloTII  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo,
-  Ca -- pi -- lla Re -- gia,
-  \EdLyrics { Ca -- pi -- lla Re -- gia, } Re -- gia
+  ca -- pi -- lla re -- gia,
+  \EdLyrics { ca -- pi -- lla re -- gia, } re -- gia
   que Ma -- rí -- a al cie -- lo par -- te, par -- te,
   pe -- ro nun -- ca más en -- te -- ra.
   en sin -- co -- pas que __ e -- le -- van,
@@ -1930,8 +1930,8 @@ LyricsCoplasSIi  = \lyricmode {
   en tan -- ta pe -- na:
   
   Su -- ban las vo -- ces al cie -- lo
-  y di -- ga Ca -- pi -- lla __ _ Re -- gia,
-  Ca -- pi -- lla Re -- gia,
+  y di -- ga ca -- pi -- lla __ _ re -- gia,
+  ca -- pi -- lla re -- gia,
   pe -- ro nun -- ca más __ en -- te -- ra.
 
   Vue -- len, \EdLyrics { vue -- len } jun -- tos,
@@ -1960,8 +1960,8 @@ LyricsCoplasSIi  = \lyricmode {
 % {{{4 SIii
 LyricsCoplasSIii  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo
-  Ca -- pi -- lla __ Re -- gia, y di -- ga
-  Ca -- pi -- lla, Ca -- pi -- lla Re -- gia,
+  ca -- pi -- lla __ re -- gia, y di -- ga
+  ca -- pi -- lla, ca -- pi -- lla re -- gia,
   pe -- ro nun -- ca más __ en -- te -- ra.
 
   \StanzaII
@@ -2000,8 +2000,8 @@ LyricsCoplasSIii  = \lyricmode {
 % {{{4 TI
 LyricsCoplasTI  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo
-  y di -- ga Ca -- pi -- lla Re -- gia, Re -- gia, 
-  Ca -- pi -- lla, \EdLyrics { Ca -- pi -- lla }  Re -- gia,
+  y di -- ga ca -- pi -- lla re -- gia, re -- gia, 
+  ca -- pi -- lla, \EdLyrics { ca -- pi -- lla }  re -- gia,
   pe -- ro nun -- ca más __ en -- te -- ra.
 
   Vue -- len, \EdLyrics { vue -- len } jun -- tos,
@@ -2041,7 +2041,7 @@ LyricsCoplasTI  = \lyricmode {
 % {{{4 SII
 LyricsCoplasSII  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo,
-  Ca -- pi -- lla Re -- gia, 
+  ca -- pi -- lla re -- gia, 
   que Ma -- rí -- a, Ma -- rí -- a al cie -- lo par -- te,
   pe -- ro nun -- ca más en -- te -- ra.
 
@@ -2074,7 +2074,7 @@ LyricsCoplasSII  = \lyricmode {
 % {{{4 AII
 LyricsCoplasAII  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo,
-  Ca -- pi -- lla Re -- gia, Re -- gia,
+  ca -- pi -- lla re -- gia, re -- gia,
   que Ma -- rí -- a al cie -- lo par -- te, 
   pe -- ro nun -- ca más en -- te -- ra.
   
@@ -2104,8 +2104,8 @@ LyricsCoplasAII  = \lyricmode {
 % {{{4 TII
 LyricsCoplasTII  = \lyricmode {
   Su -- ban las vo -- ces al cie -- lo,
-  Ca -- pi -- lla Re -- gia,
-  \EdLyrics { Ca -- pi -- lla Re -- gia, } Re -- gia
+  ca -- pi -- lla re -- gia,
+  \EdLyrics { ca -- pi -- lla re -- gia, } re -- gia
   que Ma -- rí -- a al cie -- lo par -- te, par -- te,
   pe -- ro nun -- ca más en -- te -- ra.
 

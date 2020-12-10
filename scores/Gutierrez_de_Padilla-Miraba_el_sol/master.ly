@@ -254,7 +254,7 @@ LyricsT = \lyricmode {
   su lim -- pio cri -- sol, 
 
   % ESTRIBILLO
-  en __ la sol -- fa mi -- re,
+  en __ la sol -- fa mi -- ré,
   pues a -- gra -- cia -- da~en un pun -- to,~en
   un pun -- to se ve 
   con tan -- ta re -- mi -- fa -- sol,
