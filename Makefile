@@ -18,8 +18,7 @@ score_pdf	= $(foreach path,$(score_ly),\
 all : $(out)
 
 $(out) : $(tex_aux)
-	cp $< $@
-#	gs -o $@ -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress $<
+	gs -o $@ -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress $<
 
 aux/main.pdf : $(tex_main) $(tex_sub) | $(score_pdf) $(dirs) 
 	latexmk -outdir=aux -pdf $<
