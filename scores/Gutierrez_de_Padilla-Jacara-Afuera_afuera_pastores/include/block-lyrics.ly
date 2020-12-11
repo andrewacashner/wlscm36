@@ -15,10 +15,10 @@ JacaraBlockLyrics = \markup {
                 \line { "la flor de la valentía" }
                 \line { "sin desgarros ni el haracas." }
                 \LyricSkip
-                \line { \italic "7. Lindo palacio y tapices" }
-                \line { \italic "no os dieran esta posada" }
-                \line { \italic "si nacierais entre herejes" }
-                \line { \italic "allá en Holanda o Jelanda." }
+                \line { "7. Lindo palacio y tapices" }
+                \line { "no os dieran esta posada" }
+                \line { "si nacierais entre herejes" }
+                \line { "allá en Holanda o Jelanda." }
                 \LyricSkip
                 \line { "10. Y pues con sus capas ellos" }
                 \line { "lo han de honrar cuando se vaya" }
@@ -39,10 +39,10 @@ JacaraBlockLyrics = \markup {
                 \line { "no sé cómo se os atreve," }
                 \line { "la señora doñá escarcha." }
                 \LyricSkip
-                \line { \italic "8. Ésta es afrenta, Rey mío," }
-                \line { \italic "de los bravos de la hampa," }
-                \line { \italic "quítense las capas todos," }
-                \line { \italic "ropa afuera, camaradas." }
+                \line { "8. Ésta es afrenta, Rey mío," }
+                \line { "de los bravos de la hampa," }
+                \line { "quítense las capas todos," }
+                \line { "ropa afuera, camaradas." }
                 \LyricSkip
                 \line { "11. Sirva de colchón y colcha," }
                 \line { "mi capote de campaña" }
@@ -63,10 +63,10 @@ JacaraBlockLyrics = \markup {
                 \line { "y no nacen desta suerte" }
                 \line { "los reyes allá en España." }
                 \LyricSkip
-                \line { \italic "9. Hagamos de ellas al niño," }
-                \line { \italic "un pavellón y una cama," }
-                \line { \italic "pues vemos que estos judíos" }
-                \line { \italic "ya como quien son lo tratan." }
+                \line { "9. Hagamos de ellas al niño," }
+                \line { "un pavellón y una cama," }
+                \line { "pues vemos que estos judíos" }
+                \line { "ya como quien son lo tratan." }
                 \LyricSkip
                 \line { "12. Aqueste colento de ante" }
                 \line { "sirva de alfombra bizarro" }
