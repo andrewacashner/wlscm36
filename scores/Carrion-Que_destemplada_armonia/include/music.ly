@@ -3690,8 +3690,8 @@ MusicCoplasAcI = {
   | bes2\endcolor f2. es4
   | f2 bes2. a4
   | bes2 f2 f2~\color
-  | f2\endcolor bes,2. a4
-  | bes2 f2. es4
+  | f2\endcolor bes,2. a,4
+  | bes,2 f2. es4
   | f2 bes2. a4
   | bes2\color f1\endcolor 
   | c1.
@@ -3770,8 +3770,8 @@ MusicCoplasAcG = {
   | bes2\endcolor f2. es4
   | f2 bes2. a4
   | bes2 f2 f2~\color
-  | f2\endcolor bes,2. a4
-  | bes2 f2. es4
+  | f2\endcolor bes,2. a,4
+  | bes,2 f2. es4
   | f2 bes2. a4
   | bes2\color f1\endcolor 
   | c1.

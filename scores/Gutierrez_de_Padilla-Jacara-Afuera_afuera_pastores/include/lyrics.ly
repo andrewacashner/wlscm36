@@ -72,7 +72,7 @@ LyricsTI = \lyricmode {
 
   Mi -- ren que~es -- tá dur -- mien -- do,
   cuer -- po de Cris -- to,
-  mi -- ren que~es -- tá dur -- mien --do,
+  mi -- ren que~es -- tá dur -- mien -- do,
   dur -- mien -- do,
   cuer -- po de Cris -- to,
   mi -- ren que~es -- tá dur -- mien -- do, 

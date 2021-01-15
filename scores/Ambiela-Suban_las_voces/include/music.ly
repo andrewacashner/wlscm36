@@ -495,7 +495,7 @@ MusicEstribilloSII = {
 
   % m. 35
   \MeterTriple
-  | c'2 r2 r2
+  | c''2 r2 r2
   | R1.*3
   | r2 e''2 e''2 
 

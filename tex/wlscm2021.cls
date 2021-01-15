@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{tex/wlscm2020}
-[2020/05/11
+\ProvidesClass{tex/wlscm2021}
+[2021/01/15
 Critical edition of villancicos for WLSCM, volume 2]
 
 \LoadClass[12pt,letterpaper,oneside]{book}
