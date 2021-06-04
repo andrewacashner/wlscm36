@@ -12,7 +12,7 @@ $(dirs) :
 	-mkdir -p $(dirs)
 
 build/%.pdf : %.ly
-	lilypond -I $(HOME)/lib/ly --silent -o build/$* $<
+	lilypond -I $(HOME)/lib/ly --silent --output=build $<
 
 view : $(output)
 	evince $< &> /dev/null &
