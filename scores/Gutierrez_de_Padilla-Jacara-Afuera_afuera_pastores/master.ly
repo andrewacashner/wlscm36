@@ -8,7 +8,7 @@
 %% EDITED BY ANDREW A. CASHNER
 
 %% 2017-05-16   Begun
-\version "2.19"
+\version "2.2"
 
 \include "villancico.ly"
 \include "include/music.ly"

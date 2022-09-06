@@ -5,6 +5,10 @@
 
 quedo = \MarkThisUp \markup \italic "quedo"
 voz = \MarkThisUp \markup \italic "voz"
+character = 
+#(define-scheme-function 
+    (label) (string?) 
+    #{ \tempo \markup \normal-text { $label } #})
 
 % {{{1 INCIPIT
 % {{{2 ChI
@@ -37,7 +41,7 @@ IncipitTI = {
   f'2
 }
 % }}}2
-
+ 
 % {{{2 ChII
 IncipitSII = {
   \MSclefGii
@@ -118,8 +122,9 @@ IncipitAcG = {
 % {{{1 MARKS
 Marks = {
   \MeterTriple
+  \BoxRehearsalNumbers
   \SectionPadded "ESTRIBILLO a 11" #8
-  \tempo "Despacio" 
+  \character "Despacio"
   | s1.*34
   \MiddleBar
 
@@ -129,7 +134,7 @@ Marks = {
 
   % m. 73
   \RehearsalMark
-  \tempo "Airoso"
+  \character "Airoso"
   | s1.*42
 
   % m. 115
@@ -139,13 +144,13 @@ Marks = {
 
   % m. 157
   \RehearsalMark
-  \tempo "Despacio"
+  \character "Despacio"
   | s1.*20
   \MiddleBar
 
   % m. 177
   \RehearsalMark
-  \tempo "Airoso"
+  \character "Airoso"
   | s1.*26
 
   % m. 203
@@ -163,7 +168,7 @@ Marks = {
   % COPLAS
   % m. 279
   \Section "COPLAS solas y a 11"
-  \tempo "Despacio"
+  \character "Despacio"
   | s1.*18
   \MiddleBar
   \RepeatMsg "[To coda]"
@@ -171,7 +176,7 @@ Marks = {
 
   % m. 297
   \Section "[COPLA 2]"
-  \tempo "Despacio"
+  \character "Despacio"
   | s1.*18
   \MiddleBar
   \RepeatMsg "[To coda]"
@@ -179,7 +184,7 @@ Marks = {
 
   % m. 315
   \Section "[COPLA 3]"
-  \tempo "Despacio"
+  \character "Despacio"
   | s1.*18
   \MiddleBar
   \RepeatMsg "[To coda]"
@@ -187,7 +192,7 @@ Marks = {
 
   % m. 333
   \Section "[COPLA 4]"
-  \tempo "Despacio"
+  \character "Despacio"
   | s1.*18
   \MiddleBar
   \RepeatMsg "[To coda]"
@@ -197,7 +202,7 @@ Marks = {
 
   % m. 351
   \Coda
-  \tempo "Airoso"
+  \character "Airoso"
   | s1.*18
   \MiddleBar
 
@@ -3302,7 +3307,7 @@ MusicCoplasTI = {
   | c'2 c'4( d'4) es'4 f'4
   | d'2 bes2 es'4 es'4
   | es'2 d'4( es'4 f'4 g'4)
-  | e'!2 c2 f'2
+  | e'!2 c'2 f'2
   | f'2(\color e'1)\endcolor
   | f'1 r2 R1.
   \SectionBreak \hide \time 3/2
@@ -3843,8 +3848,8 @@ MusicAcIII = {
   \MusicCoplasAcIII
 }
 MusicAcG = {
-  \MusicEstribilloAcG
-  \MusicCoplasAcG
+%  \MusicEstribilloAcG
+%  \MusicCoplasAcG
 }
 % }}}3
 % }}}2

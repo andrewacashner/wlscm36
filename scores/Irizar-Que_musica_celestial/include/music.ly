@@ -3,8 +3,6 @@
 % Irízar, Qué música celestial
 % include/music.ly
 
-\version "2.19"
-
 % {{{1 incipits
 % {{{2 chorus 1
 IncipitSIi = {
@@ -97,6 +95,7 @@ IncipitAc = {
 % {{{2 chorus 1
 % {{{3 SI-1
 MusicEstribilloSIi = {
+  \BoxRehearsalNumbers
   \clef "treble"
   \MeterTriple
   \Section "[ESTRIBILLO]"
@@ -420,7 +419,7 @@ MusicEstribilloSIii = {
   | e''2 d''2 c''2
   | c''2\color b'1\endcolor
   | c''2 c''2 c''2
-  | c''2 b'2 b'!2~\color
+  | c''2 b'!2 b'2~\color
   | b'2 a'1\endcolor
   | a'2 b'2 c''2 
   | b'2 c''2 d''2~\color

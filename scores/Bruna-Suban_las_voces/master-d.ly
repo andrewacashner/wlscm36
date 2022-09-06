@@ -8,12 +8,12 @@
 %   2012-02-07  -- Edition in Sibelius, used for diss. chapter
 %   2019-12-04  -- New edition begun
 
-\version "2.19"
+\version "2.2"
 \include "villancico.ly"
 
 \include "include/header.ly"
 \header { 
-  instrument = "TRANSPOSED EDITION"
+  editionType = "TRANSPOSED EDITION"
 }
 
 \include "include/music.ly"

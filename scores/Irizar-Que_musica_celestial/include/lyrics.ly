@@ -3,8 +3,6 @@
 % Irízar, Qué música celestial
 % include/lyrics.ly
 
-\version "2.19"
-
 % {{{1 lyrics estribillo
 % {{{2 chorus 1
 % {{{3 SI-1

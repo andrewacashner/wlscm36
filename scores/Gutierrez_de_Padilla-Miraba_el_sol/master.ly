@@ -8,7 +8,7 @@
 % VC de concepción, a duo y a 4
 % Only tenor part extant
 
-\version "2.19"
+\version "2.2"
 \include "villancico.ly"
 
 \header {

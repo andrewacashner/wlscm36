@@ -7,7 +7,7 @@
 % 2012-02-07    Transcribed in Sibelius from MS
 % 2019-12-10    Re-transcribed in Lilypond
 
-\version "2.19"
+\version "2.2"
 \include "villancico.ly"
 \include "include/header.ly"
 \include "include/music.ly"

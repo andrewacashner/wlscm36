@@ -5,7 +5,7 @@
 % 2013-01-22    First edition in Sibelius
 % 2020-04-27    Lilypond version begun
 
-\version "2.19"
+\version "2.2"
 \include "villancico.ly"
 \include "repeat-msg-lower-staff.ly"
 
@@ -132,21 +132,22 @@
       >>
     >>
 
-    \new ChoirStaff = "BcGen"
-    <<
+   \new ChoirStaff = "BcGen"
+   <<
       \ShowChoirStaffBracket
-      \new Staff = "s-AcG"
-      <<
+     \new Staff = "s-AcG"
+     <<
         \IncipitStaff 
         \TwoLineName "ACOMP." "GENERAL" "Gn."
         { \IncipitAcG }
         \new Voice = "AcG" { \MusicAcG }
         \new FiguredBass { \FiguresAcG }
-      >>
-    >>
+     >>
+   >>
   >>
   \layout {
-    indent = 2.1\in
+      indent = 2.1\in
   }
 }
+
 
