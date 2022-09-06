@@ -58,6 +58,7 @@ IncipitAc = {
 
 % {{{1 marks
 MarksEstribillo = {
+    \BoxRehearsalNumbers
   \tag #'(SIi parts) { \Section "ESTRIBILLO a 6" }
   \MeterTriple
   | s1. | s1. | s1. | s1. 
@@ -66,12 +67,14 @@ MarksEstribillo = {
   | s1. | s1. | s1. | s1. | s1.
 
   % m. 20
+  \RehearsalMark
   \MeterChangeDuple
   | s1 | s1 | s1 | s1 | s1
   | s1 | s1 | s1 | s1 | s1
   | s1 | s1 | s1 | s1 | s1
 
   % m. 35
+  \RehearsalMark
   \MeterChangeTriple
   | s1. | s1. | s1. | s1. | s1.
   | s1. | s1. | s1. | s1. | s1.
@@ -96,13 +99,15 @@ MarksCoplas = {
   | s1. | s1. | s1. | s1. | s1. 
   | s1. 
   \MiddleBar
-  
+ 
+  \RehearsalMark
   | s1. | s1. | s1. | s1. | s1.
   | s1. | s1. | s1. | s1. | s1.
   | s1. | s1. | s1. | s1. | s1.
   | s1. | s1. | s1. | s1. 
   \MiddleBar
 
+  \RehearsalMark
   | s1. | s1. | s1. | s1. | s1. 
   | s1. | s1. | s1. | s1. | s1. 
   | s1. | s1. | s1. | s1. | s1. 
@@ -110,18 +115,22 @@ MarksCoplas = {
   | s1. 
 
   \MeterChangeDuple
+  \RehearsalMark
   | s1 | s1 | s1 | s1 | s1
   | s1 | s1 | s1 | s1 | s1
   | s1 | s1 | s1 | s1 | s1
+  \break
   | s1 | s1
 
   \MeterChangeTriple
+  \RehearsalMark
   | s1. | s1. | s1. | s1. | s1. 
   | s1. | s1. | s1. | s1. | s1. 
   | s1. | s1. | s1. | s1. | s1. 
   | s1. | s1. | s1. | s1. | s1. 
   \MiddleBar
 
+  \RehearsalMark
   | s1. | s1. | s1. | s1. | s1.
   | s1. | s1. | s1. | s1. | s1.
   | s1. | s1. | s1. | s1. | s1.
@@ -470,8 +479,8 @@ MusicEstribilloSII = {
   | r2 g''2 g''2
   | g''2 f''2. d''4
   | d''2 cis''2 a''2
-  | gis''2\color a''2 d''2~\endcolor
-  | d''2 e''2 e''4 e''4
+  | gis''2\color a''2 d''2~
+  | d''2\endcolor e''2 e''4 e''4
   | e''2\color e''2 e''2~
   | e''2 e''2 e''2~
   | e''2 e''1\endcolor

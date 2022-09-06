@@ -25,7 +25,7 @@ LyricsSI = \lyricmode {
   mi -- ren que~es -- tá dur -- mien -- do, 
   cuer -- po de Cris -- to, cuer -- po de Cris -- to,
   mi -- ren que~es -- tá dur -- mien -- do, 
-  cuer -- po de Cris -- to, cuer -- po de Cris -- to.
+  cuer -- po de Cris -- to, de Cris -- to.
 }
 
 LyricsAI = \lyricmode {

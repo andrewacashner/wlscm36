@@ -1,6 +1,6 @@
 KeepLyricsAboveMarkup = \lyricmode {
-      \override LyricText.extra-offset = #'(0 . 70)
-      \override LyricHyphen.extra-offset = #'(0 . 70)
+      \override LyricText.extra-offset = #'(0 . 50)
+      \override LyricHyphen.extra-offset = #'(0 . 50)
 }
 
 BlockLyrics = \markup {
@@ -22,7 +22,7 @@ BlockLyrics = \markup {
                 \line { "no peligras," }
                 \line { "arde." }
             }
-            \hspace #5
+            \hspace #3
                 \column {
                     \line { "4.  A la vida lisonjeas," }
                     \line { "a la vida lisonjeas, lisonjeas" }
@@ -37,7 +37,9 @@ BlockLyrics = \markup {
                     \line { "si del polvo resucitas," }
                     \line { "resucitas," }
                     \line { "arde." }
-                    \hspace #1
+            }
+            \hspace #2
+                \column {
                     \line { "6. A mejor Arabia fénix," }
                     \line { "a mejor Arabia fénix, fénix," }
                     \line { "hoy arrepentida partes;" }

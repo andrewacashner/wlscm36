@@ -3848,8 +3848,8 @@ MusicAcIII = {
   \MusicCoplasAcIII
 }
 MusicAcG = {
-%  \MusicEstribilloAcG
-%  \MusicCoplasAcG
+  \MusicEstribilloAcG
+  \MusicCoplasAcG
 }
 % }}}3
 % }}}2
